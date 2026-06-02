@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/grid"
-	xhttp "github.com/minio/minio/internal/http"
+	"github.com/SimpleDataLabsInc/minio/internal/crypto"
+	"github.com/SimpleDataLabsInc/minio/internal/grid"
+	xhttp "github.com/SimpleDataLabsInc/minio/internal/http"
 )
 
 // Tests request guess function for net/rpc requests.

@@ -18,7 +18,7 @@
 package crypto
 
 import (
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/SimpleDataLabsInc/minio/internal/http"
 )
 
 const (

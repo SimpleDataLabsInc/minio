@@ -31,9 +31,9 @@ import (
 	"time"
 
 	jwtgo "github.com/golang-jwt/jwt/v4"
-	"github.com/minio/minio/internal/arn"
-	"github.com/minio/minio/internal/config"
-	jwtm "github.com/minio/minio/internal/jwt"
+	"github.com/SimpleDataLabsInc/minio/internal/arn"
+	"github.com/SimpleDataLabsInc/minio/internal/config"
+	jwtm "github.com/SimpleDataLabsInc/minio/internal/jwt"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

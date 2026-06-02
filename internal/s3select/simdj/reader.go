@@ -23,8 +23,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/minio/minio/internal/s3select/json"
-	"github.com/minio/minio/internal/s3select/sql"
+	"github.com/SimpleDataLabsInc/minio/internal/s3select/json"
+	"github.com/SimpleDataLabsInc/minio/internal/s3select/sql"
 	"github.com/minio/simdjson-go"
 )
 

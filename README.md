@@ -9,9 +9,9 @@
 
 # MinIO Quickstart Guide
 
-[![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/minio/minio/blob/master/LICENSE)
+[![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/SimpleDataLabsInc/minio/blob/master/LICENSE)
 
-[![MinIO](https://raw.githubusercontent.com/minio/minio/master/.github/logo.svg?sanitize=true)](https://min.io)
+[![MinIO](https://raw.githubusercontent.com/SimpleDataLabsInc/minio/master/.github/logo.svg?sanitize=true)](https://min.io)
 
 MinIO is a high-performance, S3-compatible object storage solution released under the GNU AGPL v3.0 license.
 Designed for speed and scalability, it powers AI/ML, analytics, and data-intensive workloads with industry-leading performance.
@@ -42,7 +42,7 @@ MinIO [AIStor](https://www.min.io/product/aistor) includes enterprise-grade supp
 
 To use MinIO community edition, you have two options:
 
-1. **Install from source** using `go install github.com/minio/minio@latest` (recommended)
+1. **Install from source** using `go install github.com/SimpleDataLabsInc/minio@latest` (recommended)
 2. **Build a Docker image** from the provided Dockerfile
 
 See the sections below for detailed instructions on each method.
@@ -51,7 +51,7 @@ See the sections below for detailed instructions on each method.
 
 Historical pre-compiled binary releases remain available for reference but are no longer maintained:
 
-- GitHub Releases: https://github.com/minio/minio/releases
+- GitHub Releases: https://github.com/SimpleDataLabsInc/minio/releases
 - Direct downloads: https://dl.min.io/server/minio/release/
 
 **These legacy binaries will not receive updates.** We strongly recommend using source builds for access to the latest features, bug fixes, and security updates.
@@ -62,7 +62,7 @@ Use the following commands to compile and run a standalone MinIO server from sou
 If you do not have a working Golang environment, please follow [How to install Golang](https://golang.org/doc/install). Minimum version required is [go1.24](https://golang.org/dl/#stable)
 
 ```sh
-go install github.com/minio/minio@latest
+go install github.com/SimpleDataLabsInc/minio@latest
 ```
 
 You can alternatively run `go build` and use the `GOOS` and `GOARCH` environment variables to control the OS and architecture target.
@@ -121,7 +121,7 @@ See the [MinIO Container](https://docs.min.io/community/minio-object-store/opera
 There are two paths for installing MinIO onto Kubernetes infrastructure:
 
 - Use the [MinIO Operator](https://github.com/minio/operator)
-- Use the community-maintained [Helm charts](https://github.com/minio/minio/tree/master/helm/minio)
+- Use the community-maintained [Helm charts](https://github.com/SimpleDataLabsInc/minio/tree/master/helm/minio)
 
 See the [MinIO Documentation](https://docs.min.io/community/minio-object-store/operations/deployments/kubernetes.html) for guidance on deploying using the Operator.
 The Community Helm chart has instructions in the folder-level README.
@@ -161,10 +161,10 @@ Follow the MinIO Client [Quickstart Guide](https://docs.min.io/community/minio-o
 
 ## Contribute to MinIO Project
 
-Please follow MinIO [Contributor's Guide](https://github.com/minio/minio/blob/master/CONTRIBUTING.md) for guidance on making new contributions to the repository.
+Please follow MinIO [Contributor's Guide](https://github.com/SimpleDataLabsInc/minio/blob/master/CONTRIBUTING.md) for guidance on making new contributions to the repository.
 
 ## License
 
-- MinIO source is licensed under the [GNU AGPLv3](https://github.com/minio/minio/blob/master/LICENSE).
-- MinIO [documentation](https://github.com/minio/minio/tree/master/docs) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- [License Compliance](https://github.com/minio/minio/blob/master/COMPLIANCE.md)
+- MinIO source is licensed under the [GNU AGPLv3](https://github.com/SimpleDataLabsInc/minio/blob/master/LICENSE).
+- MinIO [documentation](https://github.com/SimpleDataLabsInc/minio/tree/master/docs) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- [License Compliance](https://github.com/SimpleDataLabsInc/minio/blob/master/COMPLIANCE.md)

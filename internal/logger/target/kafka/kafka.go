@@ -34,10 +34,10 @@ import (
 	"github.com/IBM/sarama"
 	saramatls "github.com/IBM/sarama/tools/tls"
 
-	xioutil "github.com/minio/minio/internal/ioutil"
-	types "github.com/minio/minio/internal/logger/target/loggertypes"
-	"github.com/minio/minio/internal/once"
-	"github.com/minio/minio/internal/store"
+	xioutil "github.com/SimpleDataLabsInc/minio/internal/ioutil"
+	types "github.com/SimpleDataLabsInc/minio/internal/logger/target/loggertypes"
+	"github.com/SimpleDataLabsInc/minio/internal/once"
+	"github.com/SimpleDataLabsInc/minio/internal/store"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

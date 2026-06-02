@@ -20,8 +20,8 @@ package cmd
 import (
 	"strings"
 
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/logger"
+	"github.com/SimpleDataLabsInc/minio/internal/bucket/versioning"
+	"github.com/SimpleDataLabsInc/minio/internal/logger"
 )
 
 // BucketVersioningSys - policy subsystem.
