@@ -18,10 +18,10 @@
 package mcontext
 
 // Share a common context information between different
-// packages in github.com/minio/minio
+// packages in github.com/SimpleDataLabsInc/minio
 
 import (
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/SimpleDataLabsInc/minio/internal/http"
 )
 
 // ContextTraceType represents the type of golang Context key

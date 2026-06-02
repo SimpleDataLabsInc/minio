@@ -29,10 +29,10 @@ import (
 	"time"
 
 	"github.com/minio/minio-go/v7"
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/replication"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
+	objectlock "github.com/SimpleDataLabsInc/minio/internal/bucket/object/lock"
+	"github.com/SimpleDataLabsInc/minio/internal/bucket/replication"
+	xhttp "github.com/SimpleDataLabsInc/minio/internal/http"
+	"github.com/SimpleDataLabsInc/minio/internal/logger"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

@@ -36,9 +36,9 @@ import (
 
 	"github.com/klauspost/compress/zip"
 	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config/dns"
-	"github.com/minio/minio/internal/logger"
+	"github.com/SimpleDataLabsInc/minio/internal/auth"
+	"github.com/SimpleDataLabsInc/minio/internal/config/dns"
+	"github.com/SimpleDataLabsInc/minio/internal/logger"
 	"github.com/minio/mux"
 	xldap "github.com/minio/pkg/v3/ldap"
 	"github.com/minio/pkg/v3/policy"

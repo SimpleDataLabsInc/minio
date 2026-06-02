@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio/internal/grid"
+	"github.com/SimpleDataLabsInc/minio/internal/grid"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

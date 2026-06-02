@@ -20,7 +20,7 @@ package cmd
 import (
 	"sync"
 
-	"github.com/minio/minio/internal/config/ilm"
+	"github.com/SimpleDataLabsInc/minio/internal/config/ilm"
 )
 
 var globalILMConfig = ilmConfig{

@@ -18,15 +18,15 @@
 package cmd
 
 import (
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/config/compress"
-	xldap "github.com/minio/minio/internal/config/identity/ldap"
-	"github.com/minio/minio/internal/config/identity/openid"
-	"github.com/minio/minio/internal/config/notify"
-	"github.com/minio/minio/internal/config/policy/opa"
-	"github.com/minio/minio/internal/config/storageclass"
-	"github.com/minio/minio/internal/logger"
+	"github.com/SimpleDataLabsInc/minio/internal/auth"
+	"github.com/SimpleDataLabsInc/minio/internal/config"
+	"github.com/SimpleDataLabsInc/minio/internal/config/compress"
+	xldap "github.com/SimpleDataLabsInc/minio/internal/config/identity/ldap"
+	"github.com/SimpleDataLabsInc/minio/internal/config/identity/openid"
+	"github.com/SimpleDataLabsInc/minio/internal/config/notify"
+	"github.com/SimpleDataLabsInc/minio/internal/config/policy/opa"
+	"github.com/SimpleDataLabsInc/minio/internal/config/storageclass"
+	"github.com/SimpleDataLabsInc/minio/internal/logger"
 	"github.com/minio/pkg/v3/quick"
 )
 

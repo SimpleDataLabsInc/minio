@@ -23,7 +23,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/minio/minio/internal/kms"
+	"github.com/SimpleDataLabsInc/minio/internal/kms"
 )
 
 var encryptDecryptTests = []struct {

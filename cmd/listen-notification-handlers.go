@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/grid"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/pubsub"
+	"github.com/SimpleDataLabsInc/minio/internal/event"
+	"github.com/SimpleDataLabsInc/minio/internal/grid"
+	xhttp "github.com/SimpleDataLabsInc/minio/internal/http"
+	"github.com/SimpleDataLabsInc/minio/internal/logger"
+	"github.com/SimpleDataLabsInc/minio/internal/pubsub"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )
